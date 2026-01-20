@@ -1,4 +1,4 @@
-import HeroImg from '../../assets/images/HeroImg.png'
+import { HeroImg } from "../../assets/images"
 function Hero() {
   return (
     <section className='bg-[#F2AE4D] h-screen pt-16 flex justify-between items-center'>

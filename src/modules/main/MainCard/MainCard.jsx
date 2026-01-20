@@ -1,9 +1,5 @@
-import CardImg__1 from "../../../assets/images/CardImg__1.png"
-import CardImg__2 from "../../../assets/images/CardImg__2.png"
-import CardImg__3 from "../../../assets/images/CardImg__3.png"
-import CardImg__4 from "../../../assets/images/CardImg__4.png"
-import CardImg__5 from "../../../assets/images/CardImg__5.png"
-import CardImg__6 from "../../../assets/images/CardImg__6.png"
+import {CardImg__1,CardImg__2,CardImg__3,CardImg__4,CardImg__5,CardImg__6} from "../../../assets/images/"
+import Button from "../../../components/Button"
 
 
 function MainCard() {
@@ -47,9 +43,9 @@ function MainCard() {
 
   return (
     <>
-      {products.map(item=>(
-        <div className="w-[400px] bg-white border border-[#EEEEEE] pb-4 cursor-pointer">
-        <img src={item.img} alt={item.name} />
+      {products.map((item,index)=>(
+        <div key={index} className="w-[400px] bg-white border border-[#EEEEEE] pb-4 ">
+        <img className="cursor-pointer" src={item.img} alt={item.name} />
         <div className="px-6">
         <h2 className="text-[#011F3A] tracking-[0.36px] font-medium">{item.name}</h2>
         <div className="flex justify-between mt-2">
@@ -61,7 +57,7 @@ function MainCard() {
       ))}
       <div className="flex items-center justify-center gap-4 w-full py-11">
         <a href="#" className="text-[#A1A1A1] font-bold text-[15px]">Need unbranded stock items?</a>
-        <button className="py-3 px-6 bg-white rounded-[44px] uppercase text-[#3D5675] font-bold text-sm tracking-[1.96px] cursor-pointer">shop stock</button>
+        <Button content={"shop stock"} bgColor={"white"}/>
       </div>
     </>
    

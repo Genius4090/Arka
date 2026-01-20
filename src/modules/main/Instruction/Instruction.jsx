@@ -1,7 +1,4 @@
-
-import Instruction__1 from "../../../assets/images/Instruction__1.png"
-import Instruction__2 from "../../../assets/images/Instruction__2.png"
-import Instruction__3 from "../../../assets/images/Instruction__3.png"
+import {Instruction__1,Instruction__2,Instruction__3} from "../../../assets/images/"
 
 function Instruction() {
   return (
