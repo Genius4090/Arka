@@ -1,3 +1,4 @@
+import Footer from "./modules/footer/Footer";
 import Header from "./modules/header/header";
 import Hero from "./modules/hero/Hero";
 import Main from "./modules/main/Main";
@@ -9,7 +10,7 @@ function App() {
     <>
     <header><Header/> <Hero/> <Slider/></header>
     <main><Main/></main>
-    <footer></footer>
+    <footer><Footer/></footer>
     </>
   )
 }

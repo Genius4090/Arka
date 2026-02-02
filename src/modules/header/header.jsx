@@ -3,7 +3,7 @@ import NavItem from "../../components/NavItem"
 function Header() {
   let navs = ["Start your design","All products","Inspiration","About"]
     return (
-        <nav className="w-full h-16 flex items-center justify-between px-6 fixed bg-white">
+        <nav className="w-full h-16 flex items-center justify-between px-6 fixed bg-white z-100 shadow-sm">
           <a href="#">
           <img src={LogoImg} alt="logoImg" width={85} height={24} />
           </a>

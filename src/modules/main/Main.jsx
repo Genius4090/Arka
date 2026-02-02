@@ -2,6 +2,8 @@ import Button from "../../components/Button"
 import Advantage from "./advantage/Advantage"
 import Instruction from "./Instruction/Instruction"
 import MainCard from "./MainCard/MainCard"
+import YellowPage from "./YellowPage/YellowPage"
+import Merchants from "./Merchants/Merchants"
 
 function Main() {
   return (
@@ -14,6 +16,8 @@ function Main() {
         <MainCard/>
         <Instruction/>
         <Advantage/>
+        <YellowPage/>
+        <Merchants/>
        </div>
     </div>
   )

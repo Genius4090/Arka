@@ -13,6 +13,15 @@ import Instruction__3 from "../images/Instruction__3.png"
 import Advantage__1 from "../images/Advantage__1.png"
 import Advantage__2 from "../images/Advantage__2.png"
 import Advantage__3 from "../images/Advantage__3.png"
+import Yellow1 from "../images/Yellow1.png"
+import Yellow2 from "../images/Yellow2.png"
+import Merchant1 from "../images/Merchant1.svg"
+import Merchant2 from "../images/Merchant2.svg"
+import User1 from "../images/user1.png"
+import User2 from "../images/user2.png"
+import User3 from "../images/user3.png"
+import MerchantBg1 from "../images/merchantBg1.png"
+import MerchantBg2 from "../images/merchantBg2.png"
+import MerchantBg3 from "../images/merchantBg3.png"
 
-
-export {LogoImg,cartImg,HeroImg,CardImg__1,CardImg__2,CardImg__3,CardImg__4,CardImg__5,CardImg__6,Instruction__1,Instruction__2,Instruction__3,Advantage__1,Advantage__2,Advantage__3}
+export {LogoImg,cartImg,HeroImg,CardImg__1,CardImg__2,CardImg__3,CardImg__4,CardImg__5,CardImg__6,Instruction__1,Instruction__2,Instruction__3,Advantage__1,Advantage__2,Advantage__3,Yellow1,Yellow2,Merchant1,Merchant2,User1,User2,User3,MerchantBg1,MerchantBg2,MerchantBg3}
